@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Web Edwin </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+    <!--ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portafolio web</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.jpeg" alt="">
+            </div>
+            <h1>Edwin Eduardo Estrada</h1>
+            <h2>Ing.Tecnologias de la informacion y negocios Digitales</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/EdwinEstr"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/edwin-eduardo-estrada-calder%C3%B3n-0936a415b/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, mi nombre es Edwin Eduardo.</span> Soy un recien egresado, con ganas de adquirir nuevas abilidad y experiencias.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06-02-1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            729 703 8514
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            edwin.eduardo@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://github.com/EdwinEstr
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Mateo atenco.
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+         
+
+            <a href="img/Edwin CV.pdf" download>
+                <button>
+                  Descargar CV <i class="fa-solid fa-download"></i>
+                  <span class="overlay"></span>
+                </button>
+              </a>
+              
+        </div>
+    </section>
+
+  
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- THabilidades tecnicas -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Webflow</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades Profecionales -->
+                <div class="col">
+                    <h3>HABILIDADES PROFESIONALES</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>700%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria Industrial</h4>
+                        <span class="casa">Universidad Autonoma del Estado de Mexico</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Tengo una carrera trunca de ingeniero industrial, en la cual me enseñaron el manejo de proyectos asi como, ser un lider en el manejo de proyectos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico superior Universitario</h4>
+                        <span class="casa">Universidad Tecnologica de Zinacantepec</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Termine la carrera de tecnico superior en tecnologias de la informacion, en la cual puli mis Habilidades y conocimientos en programacion y manejo de redes</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria en Entornos Virtuales</h4>
+                        <span class="casa">Universidad Tecnologica de Zinacantepec</span>
+                        <span class="fecha">2022 - Actualmente</span>
+                        <p>En mi grado de Ingeniería en Tecnologías de la Información, Entornos Virtuales y Negocios 
+                            Digitales en UTZIN, Zinacantepec, fortalecí aún más mis habilidades informáticas y adquirí 
+                            una comprensión profunda de los entornos virtuales y las estrategias digitales para los 
+                            negocios. Además, desarrollé la capacidad de gestionar medios de comunicación digitales 
+                            de manera efectiva, lo que me ha preparado para enfrentar los desafíos del mercado laboral 
+                            actual, caracterizado por la rápida evolución de la tecnología y la transformación digital. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Diseñador de Páginas web</h4>
+                        <span class="casa">Albeh, Consulting</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>En Albeh, adquirí y desarrollé habilidades sólidas en la creación de páginas web utilizando 
+                            tanto plantillas como código personalizado. Utilicé herramientas como Web Flow para 
+                            diseñar y desarrollar sitios web de manera eficiente y profesional.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Trabajo en ventas</h4>
+                        <span class="casa">pfizer</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Inicie el manejo de compra de servicios y busqueda de provedores de marketing, manejo de venta y de como se hacen las cotizaciones con diferentes provedores de materia prima. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>[Administrativo de TI</h4>
+                        <span class="casa">Grupo iiS</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>En Grupo iiS, me encargué del mantenimiento de equipos de cómputo y el control de 
+                            inventarios. Desarrollé un portal web de tickets de servicio y otro para solicitudes de 
+                            insumos, usando HTML, PHP y JavaScript, lo que mejoró la eficiencia en ambos 
+                            procesos. Además, realicé ponchado y optimicé el manejo de cables en el servidor, 
+                            asegurando un mejor orden y funcionamiento. También gestioné la coordinación con 
+                            proveedores y realicé actualizaciones tecnológicas en la infraestructura. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Tickets </h3>
+                        <p>Sistema de gestion</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño en HTML</h3>
+                        <p>Animaciones</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Modificacion de Sitios web </h3>
+                        <p>Sitios web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Portal web de insumos</h3>
+                        <p>Gestion de insumos</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/EdwinEstr"><i class="fa-brands fa-github"></i></a>
+            <a href="https://profile.indeed.com/?hl=es_MX&co=MX&from=gnav-homepage"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!--Comentarios adicionales -->
+
+<!--Los iconoes he imagenes de facebook se sacaron del link o pagina siguiente https://fontawesome.com/v4/icon/github-->
+
